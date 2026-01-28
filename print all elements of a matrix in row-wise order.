@@ -16,7 +16,7 @@ int main() {
         }
     }
 
-    cout << "Matrix elements are:\n";
+    cout << "Matrix elements in row-wise order:\n";
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             cout << matrix[i][j] << " ";
